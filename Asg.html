@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Personal Website</title>
+    </head>
+    <style>
+        body{ margin:0; padding:0; overflow: scroll;}
+        .top{
+           background-image: url('2.jpg');
+           background-repeat:no-repeat;
+            padding:150px 20%;
+        }
+        .left{
+            background-color: black;
+            float:left; width:20%;
+            position: fixed;/*让左边一栏固定，注意不能用absolute*/
+            left:0; bottom: 0; top:0;
+        }
+        .rig_top{
+            background-color: white;
+            width:80%;float:right;
+        }
+        .rig_bot{
+            background-color: gray;
+            width:80%;float:right;
+        }
+    </style>
+    <body>
+       
+        <div id="home" class="top">
+            <h1 style="text-align: center; color:black">Welcome to my personal profile!</h1>
+        </div>
+
+
+        <div class="left">
+            <span style="display:block; padding:100px 0px; text-align: center; font-size:larger;  color:white;">
+            <p>QIAN QIUYU</p>
+            <p>PERSONAL PROFILE</p>
+        </span>
+            <ul>
+                <li><a style="font-size:larger; line-height:80px;color:white"; href="#home">Home</a></li>
+                <li><a style="font-size:larger; line-height:80px;color:white"; href="#about me">About me</a></li>
+                <li><a style="font-size:larger; line-height:80px;color:white"; href="#introduction">Introduction</a></li>
+            </ul>
+        </div>
+
+        <div id="about me" class="rig_top">
+            <div style="width:300px; height:300px; border-radius: 50%;overflow:hidden; text-align: center;float:left;">
+                <img src="My Profile.jpg">
+            </div>
+
+            <div style="float:left;font-size:larger;line-height:100px;text-decoration:underline;text-align:left;">
+                <table>
+                    <tr>
+                        <td><b>Name:</b>Qian Qiuyu</td>
+                        <td><b>Age:</b>25</td>
+                    </tr>
+                    <tr>
+                        <td><b>Student Number:</b>19086981g</td>
+                        <td><b>Mail:</b>19086981g@connect.polyu.hk</td>
+                    </tr>
+                    <tr>
+                        <td><b>Major:</b>Electronic and Information Engineering</td>
+                        <td><b>School:</b>The HongKong Polytechnic University</td>
+                    </tr>
+                </table>   
+            </div>
+        </div>
+
+        <div id="introduction" class="rig_bot">
+            <h1>A good introduction of myself</h1>
+            <p style="padding:20px; line-height:30px;color:white">
+            Hi，my name is Qian Qiuyu. I'm a postgraduate of The Hong Kong Polytechnic University.<br> 
+            My major is Electronic and Information Engineering.<br>
+            However, I have a strong interest in front-end development<br> 
+            and I think it's fun to keep challenging new things. <br>
+            So I chose this course named Internet computing and application. <br>
+            At first I just want to sit in the class and didn't intend to get credits, but after the first class, I was deeply attracted and fascinated by web technology and want to challenge myself. 
+            Later, I formally chose the course. <br>
+            I believe after a whole semester of studying, I could gain much knowledge of web technology. <br>
+            I will work harder than before.<br>
+            Finally, thanks my teacher for careful teaching. <br>
+            </p>
+        </div>
+    </body>
+</html>
